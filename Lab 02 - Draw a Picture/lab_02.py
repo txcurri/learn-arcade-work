@@ -20,8 +20,6 @@ arcade.start_render()
 # Top of 300, bottom of 0
 arcade.draw_lrtb_rectangle_filled(0, 599, 300, 0, arcade.csscolor.DARK_RED)
 
-
-
 # START LINE
 arcade.draw_line(500, 290, 350, 0, arcade.color.WHITE_SMOKE, 30)
 
@@ -44,16 +42,13 @@ arcade.draw_circle_filled(100, 200, 80, arcade.csscolor.BLACK)
 
 
 
-# Draw text at (150, 230) with a font size of 24 pts.
+# Draw text at with a font size of 24 pts.
 arcade.draw_text("DRAG RACE!",
                  200, 530,
                  arcade.color.BLACK, 24)
 
-# Finish Drwaing
+# Finish Drawing
 arcade.finish_render()
 
-#keep the window open
+# keep the window open
 arcade.run()
-
-
-
