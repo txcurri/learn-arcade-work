@@ -40,8 +40,6 @@ arcade.draw_triangle_filled(200, 250, 350, 100, 150, 480, arcade.csscolor.BLACK)
 # NEAR BACK WHEEL
 arcade.draw_circle_filled(100, 200, 80, arcade.csscolor.BLACK)
 
-
-
 # Draw text at with a font size of 24 pts.
 arcade.draw_text("DRAG RACE!",
                  200, 530,
