@@ -104,9 +104,10 @@ while not done:
         done = True
         print("your camel has died, try again")
 
-    if DRINKS_LEFT_IN_CANTEEN <=-1:
-        done = True
-        print("you have died from thirst, try again")
+    if DRINKS_LEFT_IN_CANTEEN <= -1:
+        done = Truec
+
+        print("No drinks left,try again")
 
     if DISTANCE_NATIVES_TRAVELED < 10 * MILES_TRAVELED and CAMEL_TIREDNESS >= 4:
         print("The natives are getting close!")
