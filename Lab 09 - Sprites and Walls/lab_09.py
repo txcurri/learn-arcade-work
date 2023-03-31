@@ -1,14 +1,4 @@
-"""
-No coins on the walls
 
-Simple program to show basic sprite usage. Specifically, create coin sprites that
-aren't on top of any walls, and don't have coins on top of each other.
-
-Artwork from https://kenney.nl
-
-If Python and Arcade are installed, this example can be run from the command line with:
-python -m arcade.examples.sprite_no_coins_on_walls
-"""
 import arcade
 import random
 import os
@@ -18,7 +8,7 @@ SPRITE_SCALING_COIN = 0.2
 
 SCREEN_WIDTH = 800
 SCREEN_HEIGHT = 600
-SCREEN_TITLE = "Sprite No Coins on Walls Example"
+SCREEN_TITLE = "Robot Collector"
 
 NUMBER_OF_COINS = 50
 
@@ -34,12 +24,7 @@ class MyGame(arcade.Window):
         """
         super().__init__(width, height, title)
 
-        # Set the working directory (where we expect to find files) to the same
-        # directory this .py file is in. You can leave this out of your own
-        # code, but it is needed to easily run the examples using "python -m"
-        # as mentioned at the top of this program.
-        file_path = os.path.dirname(os.path.abspath(__file__))
-        os.chdir(file_path)
+#
 
         # Sprite lists
         self.all_sprites_list = None
