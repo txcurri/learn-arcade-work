@@ -8,7 +8,7 @@ for part 3
 title screen
 Multiplying enemies
 game over screen
-
+if you hit 20 enemies you win the game
 """
 
 import arcade
